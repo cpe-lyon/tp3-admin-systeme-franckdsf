@@ -78,6 +78,13 @@ il suffit d'ajouter cette commande à un script bash créé dans le dossier Scri
 
 Le && est executé que si la fonction d'avant a renvoyé quelque chose. Le || est éxecuté dans le cas contraire.
 
+# Exercice 5
+
+Pour installer aptitude il faut entrer la commande suivante : 
+`sudo apt install aptitude`
+On ouvre aptitude avec `aptitude`
+Puis on recherche _emacs_ et on l'installe.
+
 # Exercice 6
 
 On installe la version Oracle de java
