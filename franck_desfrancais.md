@@ -19,13 +19,19 @@ avec `dpkg` il faut utiliser la commande : <br>
 
 `/usr/lib/update-notifier/apt-check --human-readable`
 
-output :<br>
+Output :<br>
 `0 updates can be installed immediately.
 0 of these updates are security updates.`
 
-il y a donc 0 mises à jours disponibles.
+Il y a donc 0 mises à jours disponibles.
 
 #### 4. Créer un alias “maj” qui met à jour le système
+
+Ouvrir le fichier .bashrc dans le dossier personnel. trouver la ligne "some more ls aliases" ajouter : 
+```
+#some more aliases
+alias maj='sudo apt upgrade && sudo apt update'
+```
 
 #### 5. A quoi sert le paquet fortunes? Installez-le. 
 
