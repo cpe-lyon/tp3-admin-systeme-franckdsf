@@ -77,3 +77,14 @@ il suffit d'ajouter cette commande à un script bash créé dans le dossier Scri
 `(dpkg -l <nom-du-paquet> | grep "^ii" ) && echo "installé" || echo "non installé"`
 
 Le && est executé que si la fonction d'avant a renvoyé quelque chose. Le || est éxecuté dans le cas contraire.
+
+# Exercice 6
+
+On installe la version Oracle de java
+```
+sudo add-apt-repository ppa:linuxuprising/java
+sudo apt update
+sudo apt install oracle-java11-installer
+```
+
+_linuxuprising-ubuntu-java-disco.list_ est contenu dans le dossier _/etc/apt/sources.list.d_
