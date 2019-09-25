@@ -91,7 +91,7 @@ On installe la version Oracle de java
 ```
 sudo add-apt-repository ppa:linuxuprising/java
 sudo apt update
-sudo apt install oracle-java11-installer
+sudo apt install oracle-java12-installer
 ```
 
 _linuxuprising-ubuntu-java-disco.list_ est contenu dans le dossier _/etc/apt/sources.list.d_
